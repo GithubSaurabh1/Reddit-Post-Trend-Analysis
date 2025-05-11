@@ -1,5 +1,11 @@
-*.pkl
-*.dll
-*.pyd
+# don’t track your virtual environment
 venv/
 .venv/
+
+# model artifacts
+*.pkl
+bertopic_reddit_model
+
+# large binaries
+*.dll
+*.pyd
